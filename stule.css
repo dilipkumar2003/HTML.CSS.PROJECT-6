@@ -1,0 +1,124 @@
+.face{
+    margin-top: 400px;
+    height: 600px;
+    width: 600px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 100%;
+    background-color:  rgb(248, 177, 189);
+    position: relative;
+    
+    
+}
+.right_eye{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 100%;
+    margin-left: 100px;
+    margin-top: 100px;
+    background-color: white;
+    position: absolute;
+}
+
+.left_eye{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 100%;
+    margin-left: 350px;
+    margin-top: 100px;
+    background-color: white;
+    position: absolute;
+}
+
+.left_eye1{
+    height: 90px;
+    width: 90px;
+    border: 2px solid black;
+    border-radius: 100%;
+    margin-left: 375px;
+    margin-top: 128px;
+    background-color: black;
+    position: absolute;
+}
+
+.right_eye1{
+    height: 90px;
+    width: 90px;
+    border: 2px solid black;
+    border-radius: 100%;
+    margin-left: 135px;
+    margin-top: 128px;
+    background-color: black;
+    position: absolute;
+}
+
+.mouth{
+    width: 240px;
+    height: 150px;
+    border: 2px solid rgb(240, 8, 8);
+    margin-left: 180px;
+    margin-top: 360px;
+    border-radius: 100px 100px 100px 100px;
+    background-color:  rgb(255, 0, 0);
+    position: absolute;
+}
+
+.hole1{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-left: 150px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.hole2{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-left: 60px;
+    margin-top: 50px;
+    position: absolute;
+    
+}
+.ear1{
+    width: 200px;
+    height: 350px;
+    border: px solid black;
+    margin-left: -330px;
+    margin-top: -50px;
+    border-radius: 100px 100px 100px 0px;
+    background-color: rgb(248, 177, 189);
+    
+}
+
+.ear2{
+    width: 200px;
+    height: 350px;
+    border: px solid black;
+    margin-left: 330px;
+    margin-top: -355px;
+    border-radius: 100px 100px 0px 0px;
+    background-color:  rgb(248, 177, 189);
+    
+}
+
+    .left_eye:hover{
+        transform: scale(1.5);
+    }
+
+    .right_eye:hover{
+        transform: scale(1.5);
+    }
+
+    .mouth:hover{
+        transform: scale(1.5);
+    }
+    .face:hover{
+        transform: scale(2.5);
+    }
